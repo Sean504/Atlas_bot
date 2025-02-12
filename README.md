@@ -1,8 +1,13 @@
-Atlas Voice Assistant 🎙️
+Copy# Atlas Voice Assistant 🎙️
+
 A locally-running voice-controlled AI assistant using Ollama and Vosk.
-Show Image
-🚀 Quick Start
-bashCopychmod +x install.sh
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## 🚀 Quick Start
+
+```bash
+chmod +x install.sh
 ./install.sh
 source atlas_env/bin/activate
 python atlas.py
