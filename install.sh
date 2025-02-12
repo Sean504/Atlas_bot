@@ -3,13 +3,13 @@
 
 # Install system dependencies
 sudo apt-get update
+sudo apt-get install python3.10-venv
 sudo apt-get install -y \
 
    python3-pip \
    python3-dev \
    portaudio19-dev \
    python3-pyaudio \
-   python3.10-venv \
    flite \
    flite1-dev \
    libsndfile1 \
