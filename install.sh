@@ -18,7 +18,7 @@ sudo apt-get install -y \
    libatlas-base-dev
 
 # Python packages
-pip install \
+pip3 install \
    vosk \
    sounddevice \
    soundfile \
