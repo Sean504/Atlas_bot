@@ -32,7 +32,7 @@
 ### 📥 Quick Install
 ```bash
 git clone https://github.com/Sean504/Atlas-bot
-cd atlas-assistant
+cd Atlas-bot
 chmod +x install.sh
 ./install.sh
 source atlas_env/bin/activate
