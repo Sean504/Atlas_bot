@@ -55,7 +55,7 @@ BL  → GPIO13
 
 Launch Atlas: python atlas.py
 Select mode:
-Copy1: Voice Input 🎤
+1: Voice Input 🎤
 2: Terminal Input ⌨️
 
 Choose AI model:
