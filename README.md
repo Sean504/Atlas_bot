@@ -31,7 +31,7 @@
 
 ### 📥 Quick Install
 ```bash
-git clone https://github.com/yourusername/atlas-assistant
+git clone https://github.com/Sean504/Atlas-bot
 cd atlas-assistant
 chmod +x install.sh
 ./install.sh
