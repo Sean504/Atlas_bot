@@ -1,16 +1,15 @@
 #!/bin/bash
 
-# Create Python virtual environment
-python3 -m venv atlas_env
-source atlas_env/bin/activate
 
 # Install system dependencies
 sudo apt-get update
 sudo apt-get install -y \
+
    python3-pip \
    python3-dev \
    portaudio19-dev \
    python3-pyaudio \
+   python3.10-venv \
    flite \
    flite1-dev \
    libsndfile1 \
@@ -28,6 +27,9 @@ pip install \
    Pillow \
    spidev \
    st7789
+# Create Python virtual environment
+python3 -m venv atlas_env
+source atlas_env/bin/activate
 
 # Download Vosk model
 wget https://alphacephei.com/vosk/models/vosk-model-small-en-us-0.15.zip
